@@ -1,16 +1,15 @@
-@font-face {
+/* @font-face {
     font-family: "ft";
     src: local("NotoSerifTC-SemiBold.otf");
 }
 
 body{
     font-family: "ft", serif;
-}
+} */
 
 #description{
     color:cornflowerblue;
     text-align: center;
-    font-family: "serif", serif;
 }
 
 #nggyu{
