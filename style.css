@@ -4,6 +4,7 @@ body{
 
 hr{
     margin: 0px;
+    margin-bottom: 0px;
 }
 
 #description{
@@ -15,21 +16,37 @@ hr{
 }
 
 #catalog{
+    list-style: none;
     background-color: white;
-    margin-top: 0px;
-    height: 50px;
+    padding: 3px;
+    margin: 0px;
+    height: 40px;
 }
 
 #catalog li{
-    display: inline;
-    margin: 20px;
+    display: block;
+    width: 120px;
+    height: 10px;
+    margin: 0px;
+    float: left;
+    /* border-style: solid; */
+}
+
+#catalog li a{
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#catalog li a:hover{
+    color: blue;
 }
 
 .personal_introduction{
     width: 300px;
     height: 500px;
-    /* border: 1px;
-    border-style: solid; */
     float: right;
     margin-top: 20px;
     margin-right: 100px;
@@ -37,12 +54,15 @@ hr{
 }
 
 #nggyu{
-    text-align: right;
-    border-width: 10px;
+    text-align: center;
+    margin-left: 60px;
+    padding-left: 10px;
+    border-left: 1px solid #000;
 }
 
 #cal{
     text-align: center;
+    position: relative;
 }
 
 #submit_img{
