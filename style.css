@@ -25,7 +25,6 @@ hr{
 
 #catalog li{
     display: block;
-    width: 120px;
     height: 10px;
     margin: 0px;
     float: left;
@@ -35,9 +34,10 @@ hr{
 #catalog li a{
     text-decoration: none;
     color: black;
-    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     padding-right: 10px;
     padding-left: 10px;
+    /* border: 1px solid #000; */
 }
 
 #catalog li a:hover{
@@ -55,18 +55,12 @@ hr{
 
 #nggyu{
     text-align: center;
-    margin-left: 60px;
-    padding-left: 10px;
-    border-left: 1px solid #000;
-}
-
-#cal{
-    text-align: center;
-    position: relative;
+    border: 1px solid #000;
 }
 
 #submit_img{
     text-align: center;
+    border-right: 1px solid #000;
 }
 
 #memecat{
