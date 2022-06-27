@@ -1,10 +1,17 @@
 body{
     margin: 0px;
+    background-image: url("https://i.pinimg.com/originals/69/17/c3/6917c33f31912b1a7628cf3529fda4fc.jpg");
+    background-size: 15%;
+    background-attachment: fixed;
 }
 
 hr{
     margin: 0px;
     margin-bottom: 0px;
+}
+
+div{
+    opacity: 0.95;
 }
 
 #description{
@@ -51,21 +58,13 @@ hr{
     color: blue;
 }
 
-#cal{
-    border-left: 1px solid #000;
-}
-
-#submit_img{
-    border-left: 1px solid #000;
-}
-
-#changelog{
+#catalog ul li .left_line{
     border-left: 1px solid #000;
 }
 
 .introduction{
     width: 350px;
-    height: 500px;
+    height: 800px;
     float: right;
     margin-top: 20px;
     margin-right: 180px;
@@ -74,8 +73,49 @@ hr{
 }
 
 #myphoto{
-    margin: 50px;
-    margin-top: 20px;
+    margin: 20px 50px 0px 50px;
+}
+
+#name{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#exp_title, #acc_title{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+#exp ul li{
+    /* list-style: none; */
+    /* float: left; */
+    position: relative;
+    word-wrap: break-word;
+    margin-right: 30px;
+}
+
+#account ul li{
+    list-style: none;
+    display: flex;
+}
+
+.icon{
+    margin-bottom: 5px;
+}
+
+#account ul li a{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#account ul li a:hover{
+    color: blue;
 }
 
 #content{
