@@ -3,6 +3,7 @@ body{
     background-image: url("https://i.pinimg.com/originals/69/17/c3/6917c33f31912b1a7628cf3529fda4fc.jpg");
     background-size: 15%;
     background-attachment: fixed;
+    font-family:sans-serif, serif;
 }
 
 hr{
@@ -88,7 +89,7 @@ div{
     /* float: left; */
     position: relative;
     word-wrap: break-word;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #account ul li{
